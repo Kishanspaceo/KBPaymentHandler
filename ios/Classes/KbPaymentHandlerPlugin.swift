@@ -60,7 +60,7 @@ class MyViewController: UIViewController {
 
     // Add a dismiss button
     let button = UIButton(type: .system)
-    button.setTitle("Close", for: .normal)
+    button.setTitle("Dismiss", for: .normal)
     button.setTitleColor(.white, for: .normal)
     button.frame = CGRect(x: 100, y: 600, width: 200, height: 50)
     button.addTarget(self, action: #selector(dismissSelf), for: .touchUpInside)
